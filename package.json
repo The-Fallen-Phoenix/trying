@@ -1,0 +1,21 @@
+{
+  "name": "tds-llm-analysis-agent",
+  "version": "0.1.0",
+  "description": "Automated quiz-solver agent for LLM-analysis quiz (Puppeteer + Express).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.2",
+    "csv-parse": "^5.4.0",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "pdf-parse": "^1.1.1",
+    "puppeteer": "^21.2.4"
+  }
+}
